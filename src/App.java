@@ -10,9 +10,12 @@ public class App {
 
         Scanner input = new Scanner(System.in);
         int nSemilla;
-        
+
+        System.out.print("Longitud semilla: ");
         nSemilla = Integer.parseInt( input.nextLine());
+        System.out.print("Primer numero");
         numPrevio = new BigInteger(input.nextLine());
+        System.out.print("Segundo numero");
         numActual = new BigInteger(input.nextLine());
 
         try {
